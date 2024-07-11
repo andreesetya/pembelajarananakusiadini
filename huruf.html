@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <title>Pembelajaran Anak Usia Dini</title>
+    <style>
+body{
+            background:transparent url('assets/bg.jpg') no-repeat;
+            background-size: cover;
+}
+.footer{
+background-color: #96C9F4;
+width: 100%;
+height: 77px;
+padding: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col mt-4">
+                <img src="assets/icon/huruf.jpeg" style="width: 30%; display: block; margin: auto;" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center mt-3">
+                <h3>BELAJAR MENGENAL HURUF ALPHABET A-Z</h3>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col col-md-6">
+            <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_a">
+                <img style="width: 100%;" src="assets/icon/huruf/a.jpg" alt="">
+            </button>
+            <div class="modal fade" id="modal_a" tabindex="-1" aria-labelledby="modal_aLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img style="width: 100%;" src="assets/icon/huruf/a.jpg" alt="">
+                     <h2>INI ADALAH HURUF A</h2>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary btn-block" onmousedown="sounda.play()">Bacakan Dengan Suara</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-6">
+                <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_b">
+                    <img style="width: 100%;" src="assets/icon/huruf/b.jpg" alt="">
+                </button>
+                <div class="modal fade" id="modal_b" tabindex="-1" aria-labelledby="modal_bLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img style="width: 100%;" src="assets/icon/huruf/b.jpg" alt="">
+                         <h2>INI ADALAH HURUF B</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-block" onmousedown="soundb.play()">Bacakan Dengan Suara</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col col-md-6">
+                    <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_c">
+                        <img style="width: 100%;" src="assets/icon/huruf/c.jpg" alt="">
+                    </button>
+                    <div class="modal fade" id="modal_c" tabindex="-1" aria-labelledby="modal_cLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img style="width: 100%;" src="assets/icon/huruf/c.jpg" alt="">
+                             <h2>INI ADALAH HURUF C</h2>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary btn-block" onmousedown="soundc.play()">Bacakan Dengan Suara</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col col-md-6">
+                        <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_d">
+                            <img style="width: 100%;" src="assets/icon/huruf/d.jpg" alt="">
+                        </button>
+                        <div class="modal fade" id="modal_d" tabindex="-1" aria-labelledby="modal_dLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <img style="width: 100%;" src="assets/icon/huruf/d.jpg" alt="">
+                                 <h2>INI ADALAH HURUF D</h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-block" onmousedown="soundd.play()">Bacakan Dengan Suara</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col col-md-6">
+            <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_e">
+                <img style="width: 100%;" src="assets/icon/huruf/e.jpg" alt="">
+            </button>
+            <div class="modal fade" id="modal_e" tabindex="-1" aria-labelledby="modal_eLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img style="width: 100%;" src="assets/icon/huruf/e.jpg" alt="">
+                     <h2>INI ADALAH HURUF E</h2>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-block" onmousedown="sounde.play()">Bacakan Dengan Suara</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-6">
+                <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_f">
+                    <img style="width: 100%;" src="assets/icon/huruf/f.jpg" alt="">
+                </button>
+                <div class="modal fade" id="modal_f" tabindex="-1" aria-labelledby="modal_fLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img style="width: 100%;" src="assets/icon/huruf/f.jpg" alt="">
+                         <h2>INI ADALAH HURUF F</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-block" onmousedown="soundf.play()">Bacakan Dengan Suara</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col col-md-6">
+                    <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_g">
+                        <img style="width: 100%;" src="assets/icon/huruf/g.jpg" alt="">
+                    </button>
+                    <div class="modal fade" id="modal_g" tabindex="-1" aria-labelledby="modal_gLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img style="width: 100%;" src="assets/icon/huruf/g.jpg" alt="">
+                             <h2>INI ADALAH HURUF G</h2>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary btn-block" onmousedown="soundg.play()">Bacakan Dengan Suara</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col col-md-6">
+                        <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_h">
+                            <img style="width: 100%;" src="assets/icon/huruf/h.jpg" alt="">
+                        </button>
+                        <div class="modal fade" id="modal_h" tabindex="-1" aria-labelledby="modal_hLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <img style="width: 100%;" src="assets/icon/huruf/h.jpg" alt="">
+                                 <h2>INI ADALAH HURUF H</h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-block" onmousedown="soundh.play()">Bacakan Dengan Suara</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col col-md-6">
+            <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_i">
+                <img style="width: 100%;" src="assets/icon/huruf/i.jpg" alt="">
+            </button>
+            <div class="modal fade" id="modal_i" tabindex="-1" aria-labelledby="modal_iLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img style="width: 100%;" src="assets/icon/huruf/i.jpg" alt="">
+                     <h2>INI ADALAH HURUF I</h2>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-block" onmousedown="soundi.play()">Bacakan Dengan Suara</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-6">
+                <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_j">
+                    <img style="width: 100%;" src="assets/icon/huruf/j.jpg" alt="">
+                </button>
+                <div class="modal fade" id="modal_j" tabindex="-1" aria-labelledby="modal_jLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img style="width: 100%;" src="assets/icon/huruf/j.jpg" alt="">
+                         <h2>INI ADALAH HURUF J</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-block" onmousedown="soundj.play()">Bacakan Dengan Suara</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col col-md-6">
+                    <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_k">
+                        <img style="width: 100%;" src="assets/icon/huruf/k.jpg" alt="">
+                    </button>
+                    <div class="modal fade" id="modal_k" tabindex="-1" aria-labelledby="modal_kLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img style="width: 100%;" src="assets/icon/huruf/k.jpg" alt="">
+                             <h2>INI ADALAH HURUF K</h2>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary btn-block" onmousedown="soundk.play()">Bacakan Dengan Suara</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col col-md-6">
+                        <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_l">
+                            <img style="width: 100%;" src="assets/icon/huruf/l.jpg" alt="">
+                        </button>
+                        <div class="modal fade" id="modal_l" tabindex="-1" aria-labelledby="modal_lLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <img style="width: 100%;" src="assets/icon/huruf/l.jpg" alt="">
+                                 <h2>INI ADALAH HURUF L</h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-block" onmousedown="soundl.play()">Bacakan Dengan Suara</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col col-md-6">
+            <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_m">
+                <img style="width: 100%;" src="assets/icon/huruf/m.jpg" alt="">
+            </button>
+            <div class="modal fade" id="modal_m" tabindex="-1" aria-labelledby="modal_mLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img style="width: 100%;" src="assets/icon/huruf/m.jpg" alt="">
+                     <h2>INI ADALAH HURUF M</h2>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-block" onmousedown="soundm.play()">Bacakan Dengan Suara</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-6">
+                <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_n">
+                    <img style="width: 100%;" src="assets/icon/huruf/n.jpg" alt="">
+                </button>
+                <div class="modal fade" id="modal_n" tabindex="-1" aria-labelledby="modal_nLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img style="width: 100%;" src="assets/icon/huruf/n.jpg" alt="">
+                         <h2>INI ADALAH HURUF N</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-block" onmousedown="soundn.play()">Bacakan Dengan Suara</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col col-md-6">
+                    <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_o">
+                        <img style="width: 100%;" src="assets/icon/huruf/o.jpg" alt="">
+                    </button>
+                    <div class="modal fade" id="modal_o" tabindex="-1" aria-labelledby="modal_oLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img style="width: 100%;" src="assets/icon/huruf/o.jpg" alt="">
+                             <h2>INI ADALAH HURUF O</h2>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary btn-block" onmousedown="soundo.play()">Bacakan Dengan Suara</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col col-md-6">
+                        <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_p">
+                            <img style="width: 100%;" src="assets/icon/huruf/p.jpg" alt="">
+                        </button>
+                        <div class="modal fade" id="modal_p" tabindex="-1" aria-labelledby="modal_pLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <img style="width: 100%;" src="assets/icon/huruf/p.jpg" alt="">
+                                 <h2>INI ADALAH HURUF P</h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-block" onmousedown="soundp.play()">Bacakan Dengan Suara</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col col-md-6">
+            <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_q">
+                <img style="width: 100%;" src="assets/icon/huruf/q.jpg" alt="">
+            </button>
+            <div class="modal fade" id="modal_q" tabindex="-1" aria-labelledby="modal_qLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img style="width: 100%;" src="assets/icon/huruf/q.jpg" alt="">
+                     <h2>INI ADALAH HURUF Q</h2>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-block" onmousedown="soundq.play()">Bacakan Dengan Suara</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-6">
+                <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_r">
+                    <img style="width: 100%;" src="assets/icon/huruf/r.jpg" alt="">
+                </button>
+                <div class="modal fade" id="modal_r" tabindex="-1" aria-labelledby="modal_rLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img style="width: 100%;" src="assets/icon/huruf/r.jpg" alt="">
+                         <h2>INI ADALAH HURUF R</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-block" onmousedown="soundr.play()">Bacakan Dengan Suara</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col col-md-6">
+                    <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_s">
+                        <img style="width: 100%;" src="assets/icon/huruf/s.jpg" alt="">
+                    </button>
+                    <div class="modal fade" id="modal_s" tabindex="-1" aria-labelledby="modal_sLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img style="width: 100%;" src="assets/icon/huruf/s.jpg" alt="">
+                             <h2>INI ADALAH HURUF S</h2>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary btn-block" onmousedown="sounds.play()">Bacakan Dengan Suara</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col col-md-6">
+                        <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_t">
+                            <img style="width: 100%;" src="assets/icon/huruf/t.jpg" alt="">
+                        </button>
+                        <div class="modal fade" id="modal_t" tabindex="-1" aria-labelledby="modal_pLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <img style="width: 100%;" src="assets/icon/huruf/t.jpg" alt="">
+                                 <h2>INI ADALAH HURUF T</h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-block" onmousedown="soundt.play()">Bacakan Dengan Suara</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col col-md-6">
+            <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_u">
+                <img style="width: 100%;" src="assets/icon/huruf/u.jpg" alt="">
+            </button>
+            <div class="modal fade" id="modal_u" tabindex="-1" aria-labelledby="modal_uLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img style="width: 100%;" src="assets/icon/huruf/u.jpg" alt="">
+                     <h2>INI ADALAH HURUF U</h2>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-block" onmousedown="soundu.play()">Bacakan Dengan Suara</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-6">
+                <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_v">
+                    <img style="width: 100%;" src="assets/icon/huruf/v.jpg" alt="">
+                </button>
+                <div class="modal fade" id="modal_v" tabindex="-1" aria-labelledby="modal_vLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img style="width: 100%;" src="assets/icon/huruf/v.jpg" alt="">
+                         <h2>INI ADALAH HURUF V</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-block" onmousedown="soundv.play()">Bacakan Dengan Suara</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col col-md-6">
+                    <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_w">
+                        <img style="width: 100%;" src="assets/icon/huruf/w.jpg" alt="">
+                    </button>
+                    <div class="modal fade" id="modal_w" tabindex="-1" aria-labelledby="modal_wLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img style="width: 100%;" src="assets/icon/huruf/w.jpg" alt="">
+                             <h2>INI ADALAH HURUF W</h2>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary btn-block" onmousedown="soundw.play()">Bacakan Dengan Suara</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col col-md-6">
+                        <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_x">
+                            <img style="width: 100%;" src="assets/icon/huruf/x.jpg" alt="">
+                        </button>
+                        <div class="modal fade" id="modal_x" tabindex="-1" aria-labelledby="modal_xLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <img style="width: 100%;" src="assets/icon/huruf/x.jpg" alt="">
+                                 <h2>INI ADALAH HURUF X</h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-block" onmousedown="soundx.play()">Bacakan Dengan Suara</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+        </div>
+
+        <div class="row mt-2 text-center">
+            <div class="col col-md-6">
+            <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_y">
+                <img style="width: 100%;" src="assets/icon/huruf/y.jpg" alt="">
+            </button>
+            <div class="modal fade" id="modal_y" tabindex="-1" aria-labelledby="modal_yLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img style="width: 100%;" src="assets/icon/huruf/y.jpg" alt="">
+                     <h2>INI ADALAH HURUF Y</h2>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary btn-block" onmousedown="soundy.play()">Bacakan Dengan Suara</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-md-6">
+                <button style="width: 60px; padding: 0px;" class="btn btn-default" type="button" data-toggle="modal" data-target="#modal_z">
+                    <img style="width: 100%;" src="assets/icon/huruf/z.jpg" alt="">
+                </button>
+                <div class="modal fade" id="modal_z" tabindex="-1" aria-labelledby="modal_zLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Huruf Apa Ini ???</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img style="width: 100%;" src="assets/icon/huruf/z.jpg" alt="">
+                         <h2>INI ADALAH HURUF Z</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-block" onmousedown="soundz.play()">Bacakan Dengan Suara</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+        </div>
+
+        <div class="mt-5 text-center"><a href="index.html" class="btn btn-primary">Kembali</a></div>
+    </div>
+    <div class="footer mt-5 text-center"> 
+        <b>Copyright © 2024. TK DIAN MUTIARA SIMEULUE</b>
+   </div>
+
+   <script src="script.js"></script>
+   
+   <script src="bootstrap/site/static/docs/4.6/assets/js/vendor/jquery.slim.min.js"></script>
+   <script src="bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+</html>
